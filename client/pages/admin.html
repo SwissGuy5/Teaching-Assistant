@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
+    <title>Teaching Assistant</title>
+    <script defer src="../scripts/client.js"></script>
+    <script defer src="../scripts/admin.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <ul id="navbar">
+        <li><a href="#">=</a></li>
+        <li id="forumPageLink"><a href="./">Forum</a></li>
+        <li id="feedbackPageLink"><a href="./feedback">View Feedback</a></li>
+        <li id="adminPageLink"><a href="./admin">Admin</a></li>
+        <li id="fileUploadPageLink"><a href="./fileUpload">Upload Files</a></li>
+        <li class="alignRight" id="signOutPageLink"><a onclick="signOut()">Sign Out</a></li>
+        <li class="alignRight" id="accountPageLink"><a href="./account">Account</a></li>
+        <li class="alignRight" id="registerPageLink"><a href="./register">Register</a></li>
+        <li class="alignRight" id="loginPageLink"><a href="./login">Login</a></li>
+    </ul>
+    <div id="inputFineTuningData" style="justify-content: center;">
+        <textarea id="systemInput" name="systemInput" placeholder="System Message" rows="10"></textarea>
+        <textarea id="userInput" name="userInput" placeholder="Sample User Prompt" rows="10"></textarea>
+        <textarea id="assistantInput" name="assistantInput" placeholder="Sample Assistant Response" rows="10"></textarea>
+        <button id="fineTuningDataSubmitBtn" type="button">Submit</button>
+    </div>
+    <div id="adminGrid">
+        <div id="adminGridRowFixed">
+            <p>Data ID</p>
+            <p>System Content</p>
+            <p>User Content</p>
+            <p>Assistant Content</p>
+            <p>Date</p>
+            <p>Update</p>
+        </div>
+    </div>
+    <button id="newModelBtn">Generate a New Finetuned Model</button>
+</body>
+
+</html>

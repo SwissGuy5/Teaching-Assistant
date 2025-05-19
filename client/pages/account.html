@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
+    <title>Teaching Assistant</title>
+    <script defer src="../scripts/client.js"></script>
+    <script defer src="../scripts/account.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <ul id="navbar">
+        <li><a href="#">=</a></li>
+        <li id="forumPageLink"><a href="./">Forum</a></li>
+        <li id="feedbackPageLink"><a href="./feedback">View Feedback</a></li>
+        <li id="adminPageLink"><a href="./admin">Admin</a></li>
+        <li id="fileUploadPageLink"><a href="./fileUpload">Upload Files</a></li>
+        <li class="alignRight" id="signOutPageLink"><a onclick="signOut()">Sign Out</a></li>
+        <li class="alignRight" id="accountPageLink"><a href="./account">Account</a></li>
+        <li class="alignRight" id="registerPageLink"><a href="./register">Register</a></li>
+        <li class="alignRight" id="loginPageLink"><a href="./login">Login</a></li>
+    </ul>
+    <div id="viewAccount">
+        <h1>Account Settings</h1>
+        <p id="displayEmail">Email: </p>
+        <p id="displayClassCode">Class Code: </p>
+        <p id="displayModel">Model: </p>
+    </div>
+    <!-- <div id="accountContainer" style="justify-content: center;">
+        <h1>Account Settings</h1>
+        <div id="editEmail">
+            <input type="text" name="editEmail" placeholder="email">
+            <button>Edit</button>
+        </div>
+        <div id="editPassword">
+            <label for="currPassword">Current Password</label>
+            <input id="currPassword" type="password" name="editPassword" placeholder="email">
+            <label for="currPassword">New Password</label>
+            <input id="newPassword" type="password" name="editPassword" placeholder="email">
+            <button>Edit</button>
+        </div>
+        <div id="editModel">
+            <label for="currPassword">Current Password</label>
+            <input id="currPassword" type="text" name="emailInput" placeholder="email">
+            <label for="currPassword">New Password</label>
+            <input id="newPassword" type="text" name="emailInput" placeholder="email">
+            <button>Edit</button>
+        </div>
+    </div> -->
+</body>
+
+</html>

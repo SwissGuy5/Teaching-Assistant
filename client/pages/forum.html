@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
+    <title>Teaching Assistant</title>
+    <script defer src="../scripts/client.js"></script>
+    <script defer src="../scripts/forum.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <ul id="navbar">
+        <li><a href="#">=</a></li>
+        <li id="forumPageLink"><a href="./">Forum</a></li>
+        <li id="feedbackPageLink"><a href="./feedback">View Feedback</a></li>
+        <li id="adminPageLink"><a href="./admin">Admin</a></li>
+        <li id="fileUploadPageLink"><a href="./fileUpload">Upload Files</a></li>
+        <li class="alignRight" id="signOutPageLink"><a onclick="signOut()">Sign Out</a></li>
+        <li class="alignRight" id="accountPageLink"><a href="./account">Account</a></li>
+        <li class="alignRight" id="registerPageLink"><a href="./register">Register</a></li>
+        <li class="alignRight" id="loginPageLink"><a href="./login">Login</a></li>
+    </ul>
+    <ul id="sidebar">
+        <li><button href="" onclick="threadLink(1)">Thread 1</button></li>
+        <li><button href="" onclick="threadLink(2)">Thread 2</button></li>
+        <li><button href="" onclick="threadLink(3)">Thread 3</button></li>
+        <li><button href="" onclick="threadLink(4)">Thread 4</button></li>
+    </ul>
+    <div id="messageZone">
+        <div id="scrollZone"></div>
+        <input type="text" id="textInput" name="textInput" maxlength="400" />
+    </div>
+</body>
+
+</html>

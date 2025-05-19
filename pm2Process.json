@@ -1,0 +1,9 @@
+{
+    "script": "./server.mjs",
+    "watch": true,
+    "ignore_watch": ["fineTunedModels"],
+    "watch_options": {
+        "followSymlinks": false
+    },
+    "name": "teachingAssistant"
+}

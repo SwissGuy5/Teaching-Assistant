@@ -1,0 +1,9 @@
+{"messages": [{"role": "system", "content": "Test Prompt"}, {"role": "user", "content": "This is a test prompt"}, {"role": "assistant", "content": "The gpt model is functioning properly"}]}
+{"messages": [{"role": "system", "content": "Test2"}, {"role": "user", "content": "test 123"}, {"role": "assistant", "content": "123 test"}]}
+{"messages": [{"role": "system", "content": "Testing features"}, {"role": "user", "content": "Is this working?"}, {"role": "assistant", "content": "Yes, the chatbot is functional."}]}
+{"messages": [{"role": "system", "content": "Test"}, {"role": "user", "content": "Test test test"}, {"role": "assistant", "content": "Yes, the chatbot is functional."}]}
+{"messages": [{"role": "system", "content": "Test prompt"}, {"role": "user", "content": "Yet another test"}, {"role": "assistant", "content": "test successful\n"}]}
+{"messages": [{"role": "system", "content": "Test prompt"}, {"role": "user", "content": "test"}, {"role": "assistant", "content": "test successfull"}]}
+{"messages": [{"role": "system", "content": "Testing features"}, {"role": "user", "content": "say hi"}, {"role": "assistant", "content": "hi"}]}
+{"messages": [{"role": "system", "content": "Test"}, {"role": "user", "content": "say hello"}, {"role": "assistant", "content": "hello"}]}
+{"messages": [{"role": "system", "content": "Testing"}, {"role": "user", "content": "Say 123"}, {"role": "assistant", "content": "123"}]}

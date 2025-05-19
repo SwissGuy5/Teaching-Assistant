@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="#">
+    <title>Teaching Assistant</title>
+    <script defer src="../scripts/client.js"></script>
+    <script defer src="../scripts/authentication.js"></script>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <ul id="navbar">
+        <li><a href="#">=</a></li>
+        <li id="forumPageLink"><a href="./">Forum</a></li>
+        <li id="feedbackPageLink"><a href="./feedback">View Feedback</a></li>
+        <li id="adminPageLink"><a href="./admin">Admin</a></li>
+        <li id="fileUploadPageLink"><a href="./fileUpload">Upload Files</a></li>
+        <li class="alignRight" id="signOutPageLink"><a onclick="signOut()">Sign Out</a></li>
+        <li class="alignRight" id="accountPageLink"><a href="./account">Account</a></li>
+        <li class="alignRight" id="registerPageLink"><a href="./register">Register</a></li>
+        <li class="alignRight" id="loginPageLink"><a href="./login">Login</a></li>
+    </ul>
+    <div id="loginFormContainer" style="justify-content: center;">
+        <h1>Login</h1>
+        <input id="emailInput" type="text" name="emailInput" placeholder="email">
+        <input id="passwordInput" type="password" name="passwordInput" placeholder="password" maxlength="30">
+        <button id="loginBtn" type="button">Login</button>
+    </div>
+</body>
+
+</html>
